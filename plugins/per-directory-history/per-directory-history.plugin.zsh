@@ -56,7 +56,7 @@
 # configuration, the base under which the directory histories are stored
 #-------------------------------------------------------------------------------
 
-[[ -z $HISTORY_BASE ]] && HISTORY_BASE="$HOME/.directory_history"
+[[ -z $HISTORY_BASE ]] && HISTORY_BASE="$HOME/tmp/.directory_history"
 
 #-------------------------------------------------------------------------------
 # toggle global/directory history used for searching - ctrl-G by default
